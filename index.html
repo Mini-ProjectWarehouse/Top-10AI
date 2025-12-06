@@ -1,240 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Top 10 AI Website</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.7.0/flowbite.min.css" rel="stylesheet" />
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.7.0/flowbite.min.js"></script>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body class="text-gray-200 font-sans">
-
-  <nav class="bg-gray-800 border-b border-gray-700 fixed w-full z-30 top-0 left-0">
-    <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-        <span class="self-center text-2xl font-semibold whitespace-nowrap text-green-500" id="head">Top 10 AI Website</span>
-      <button data-collapse-toggle="mobile-menu" type="button" class="inline-flex items-center p-2 ml-3 text-sm text-gray-400 rounded-lg md:hidden hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-600" aria-controls="mobile-menu" aria-expanded="false">
-        <span class="sr-only">Open main menu</span>
-        <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"  xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"></path></svg>
-      </button>
-      <div class="hidden w-full md:block md:w-auto" id="mobile-menu">
-        <ul class="flex flex-col md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium">
-          <li><a href="#about-ai" class="block py-2 px-3 rounded md:bg-transparent md:p-0 md:text-green-500" aria-current="page">About AI</a></li>
-          <li><a href="#top-ai" class="block py-2 px-3 rounded hover:bg-gray-700 md:hover:bg-transparent md:hover:text-green-500 md:p-0">Top AI</a></li>
-          <li><a href="#services" class="block py-2 px-3 rounded hover:bg-gray-700 md:hover:bg-transparent md:hover:text-green-500 md:p-0">AI Services</a></li>
-          <li><a href="#contact" class="block py-2 px-3 rounded hover:bg-gray-700 md:hover:bg-transparent md:hover:text-green-500 md:p-0">Contact Us</a></li>
-          <li><a href="./form/login.html" class="block py-2 px-3 rounded hover:bg-gray-700 md:hover:bg-transparent md:hover:text-green-500 md:p-0">Sign-In</a></li>
-        </ul>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home - Our Local Community</title>
+    <link rel="stylesheet" target="_blank" href="./style.css">
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        <img src="" alt="logo">
+        <h1>OLC</h1>
       </div>
+      <ul>
+        <li>
+          <a href="#">Home</a>
+        </li>
+        <li>
+          <a href="#">About</a>
+        </li>
+        <li>
+          <a href="#">Services</a>
+        </li>
+        <li>
+          <a href="#">Pages</a>
+        </li>
+        <li>
+          <a href="#">Contact Us</a>
+        </li>
+      </ul>
+      <div class="hamburger">
+        <span class="line"></span>
+        <span class="line"></span>
+        <span class="line"></span>
+      </div>
+    </nav>
+    <div class="menubar">
+      <ul>
+        <li>
+          <a href="#">Home</a>
+        </li>
+        <li>
+          <a href="#">About</a>
+        </li>
+        <li>
+          <a href="#">Services</a>
+        </li>
+        <li>
+          <a href="#">Pages</a>
+        </li>
+        <li>
+          <a href="#">Contact Us</a>
+        </li>
+      </ul>
     </div>
-  </nav>
 
-  <header class="pt-24 pb-12 bg-gradient-to-r from-green-700 via-green-600 to-green-500 text-center">
-    <h1 class="text-4xl md:text-5xl font-extrabold mb-4 text-white drop-shadow-lg">Welcome to Top 10 AI Website</h1>
-    <p class="text-xl md:text-2xl text-white-300 max-w-3xl mx-auto">Exploring the Future with Artificial Intelligence</p>
-  </header>
-
-  <section id="about-ai" class="max-w-6xl mx-auto my-12 p-8 bg-gray-800 rounded-lg shadow-lg text-center">
-    <h2 class="text-3xl font-bold mb-6 text-green-500">About AI</h2>
-    <p class="text-gray-300 max-w-4xl mx-auto text-lg leading-relaxed">
-      AI stands for Artificial Intelligence. AI is the science of mankind. It can do things that are considered "smart." AI technology can process large amounts of data in ways unlike humans. The goal for AI is to be able to do things such as recognize patterns, make decisions, and judge like humans. AI is specially designed to help humans with their work and boost productivity.
-    </p>
-  </section>
-
-  <section id="top-ai" class="max-w-6xl mx-auto my-12 p-8">
-    <h2 class="text-3xl font-bold mb-8 text-center text-green-500">Top 10 AI Tools</h2>
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-      <article class="bg-gray-800 rounded-lg shadow-lg p-6 flex flex-col md:flex-row items-center gap-6">
-        <img src="./images/gamma logo.gif" alt="Gamma Logo" class="w-32 h-32 object-contain rounded-lg shadow-md bg-gray-900" />
-        <div>
-          <h3 class="text-xl font-semibold text-green-500 mb-2">Gamma</h3>
-          <p class="text-gray-300 mb-3">Create polished presentations & visuals in seconds with no design skills using AI. Gamma allows users to create polished documents, presentations, and webpages quickly.</p>
-          <div class="flex flex-wrap gap-2 mb-3">
-            <span class="bg-green-400 text-gray-900 rounded-full px-3 py-1 text-sm font-semibold">Power Point</span>
-            <span class="bg-green-400 text-gray-900 rounded-full px-3 py-1 text-sm font-semibold">PDF</span>
-            <span class="bg-green-400 text-gray-900 rounded-full px-3 py-1 text-sm font-semibold">Web page</span>
-          </div>
-          <a href="https://gamma.app" target="_blank" class="inline-block bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded shadow">Learn more</a>
-        </div>
-      </article>
-
-      <article class="bg-gray-800 rounded-lg shadow-lg p-6 flex flex-col md:flex-row items-center gap-6">
-        <img src="./images/chatgpt-logo.jpeg" alt="ChatGPT Logo" class="w-24 h-24 object-contain rounded-lg shadow-md bg-gray-900" />
-        <div>
-          <h3 class="text-xl font-semibold text-green-500 mb-2">Chat GPT</h3>
-          <p class="text-gray-300 mb-3">ChatGPT is an AI chatbot that uses natural language processing to create humanlike conversational dialogue. It can respond to questions and compose various written content.</p>
-          <div class="flex flex-wrap gap-2 mb-3">
-            <span class="bg-green-400 text-gray-900 rounded-full px-3 py-1 text-sm font-semibold">Complex topics explainer</span>
-            <span class="bg-green-400 text-gray-900 rounded-full px-3 py-1 text-sm font-semibold">Math problems solver</span>
-            <span class="bg-green-400 text-gray-900 rounded-full px-3 py-1 text-sm font-semibold">Textual content writer</span>
-          </div>
-          <a href="https://chat.openai.com/auth/login" target="_blank" class="inline-block bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded shadow">Learn more</a>
-        </div>
-      </article>
-
-      <article class="bg-gray-800 rounded-lg shadow-lg p-6 flex flex-col md:flex-row items-center gap-6">
-        <img src="./images/bolt_ai.jpg" alt="Bolt AI Logo" class="w-32 h-32 object-contain rounded-lg shadow-md bg-gray-900" />
-        <div>
-          <h3 class="text-xl font-semibold text-green-500 mb-2">Bolt AI</h3>
-          <p class="text-gray-300 mb-3">Bolt AI is an advanced AI platform designed to accelerate business processes through intelligent automation, data analysis, and decision-making support.</p>
-          <div class="flex flex-wrap gap-2 mb-3">
-            <span class="bg-green-400 text-gray-900 rounded-full px-3 py-1 text-sm font-semibold">Automation</span>
-            <span class="bg-green-400 text-gray-900 rounded-full px-3 py-1 text-sm font-semibold">Data Analysis</span>
-            <span class="bg-green-400 text-gray-900 rounded-full px-3 py-1 text-sm font-semibold">Decision Support</span>
-          </div>
-          <a href="https://bolt.ai" target="_blank" class="inline-block bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded shadow">Learn more</a>
-        </div>
-      </article>
-
-      <article class="bg-gray-800 rounded-lg shadow-lg p-6 flex flex-col md:flex-row items-center gap-6">
-        <img src="./images/co-pilot-logo.jpeg" alt="Copilot Logo" class="w-32 h-32 object-contain rounded-lg shadow-md bg-gray-900" />
-        <div>
-          <h3 class="text-xl font-semibold text-green-500 mb-2">GitHub Copilot</h3>
-          <p class="text-gray-300 mb-3">GitHub Copilot is an AI pair programmer that helps write code faster by suggesting whole lines or blocks of code.</p>
-          <div class="flex flex-wrap gap-2 mb-3">
-            <span class="bg-green-400 text-gray-900 rounded-full px-3 py-1 text-sm font-semibold">Code completion</span>
-            <span class="bg-green-400 text-gray-900 rounded-full px-3 py-1 text-sm font-semibold">Code suggestions</span>
-            <span class="bg-green-400 text-gray-900 rounded-full px-3 py-1 text-sm font-semibold">AI pair programming</span>
-          </div>
-          <a href="https://github.com/features/copilot" target="_blank" class="inline-block bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded shadow">Learn more</a>
-        </div>
-      </article>
-
-      <article class="bg-gray-800 rounded-lg shadow-lg p-6 flex flex-col md:flex-row items-center gap-6">
-        <img src="./images/Grammarly.png" alt="Grammarly Logo" class="w-32 h-32 object-contain rounded-lg shadow-md bg-gray-900" />
-        <div>
-          <h3 class="text-xl font-semibold text-green-500 mb-2">Grammarly</h3>
-          <p class="text-gray-300 mb-3">Grammarly is an AI-powered writing assistant that helps improve grammar, spelling, and style in writing.</p>
-          <div class="flex flex-wrap gap-2 mb-3">
-            <span class="bg-green-400 text-gray-900 rounded-full px-3 py-1 text-sm font-semibold">Grammar checking</span>
-            <span class="bg-green-400 text-gray-900 rounded-full px-3 py-1 text-sm font-semibold">Spell checking</span>
-            <span class="bg-green-400 text-gray-900 rounded-full px-3 py-1 text-sm font-semibold">Writing enhancement</span>
-          </div>
-          <a href="https://www.grammarly.com" target="_blank" class="inline-block bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded shadow">Learn more</a>
-        </div>
-      </article>
-
-      <article class="bg-gray-800 rounded-lg shadow-lg p-6 flex flex-col md:flex-row items-center gap-6">
-        <img src="./images/runway-ai.png" alt="Runway Logo" class="w-32 h-32 object-contain rounded-lg shadow-md bg-gray-900" />
-        <div>
-          <h3 class="text-xl font-semibold text-green-500 mb-2">Runway</h3>
-          <p class="text-gray-300 mb-3">Runway offers creative tools powered by AI for video editing, image generation, and more.</p>
-          <div class="flex flex-wrap gap-2 mb-3">
-            <span class="bg-green-400 text-gray-900 rounded-full px-3 py-1 text-sm font-semibold">Video editing</span>
-            <span class="bg-green-400 text-gray-900 rounded-full px-3 py-1 text-sm font-semibold">Image generation</span>
-            <span class="bg-green-400 text-gray-900 rounded-full px-3 py-1 text-sm font-semibold">Creative tools</span>
-          </div>
-          <a href="https://runwayml.com" target="_blank" class="inline-block bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded shadow">Learn more</a>
-        </div>
-      </article>
-
-      <article class="bg-gray-800 rounded-lg shadow-lg p-6 flex flex-col md:flex-row items-center gap-6">
-        <img src="./images/adobe-firefly-logo.png" alt="Adobe Firefly Logo" class="w-32 h-32 object-contain rounded-lg shadow-md bg-gray-900" />
-        <div>
-          <h3 class="text-xl font-semibold text-green-500 mb-2">Adobe Firefly</h3>
-          <p class="text-gray-300 mb-3">Adobe Firefly is an AI creative tool for generating images and designs with ease.</p>
-          <div class="flex flex-wrap gap-2 mb-3">
-            <span class="bg-green-400 text-gray-900 rounded-full px-3 py-1 text-sm font-semibold">Image generation</span>
-            <span class="bg-green-400 text-gray-900 rounded-full px-3 py-1 text-sm font-semibold">Creative design</span>
-            <span class="bg-green-400 text-gray-900 rounded-full px-3 py-1 text-sm font-semibold">AI art</span>
-          </div>
-          <a href="https://www.adobe.com/sensei.html" target="_blank" class="inline-block bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded shadow">Learn more</a>
-        </div>
-      </article>
-
-      <article class="bg-gray-800 rounded-lg shadow-lg p-6 flex flex-col md:flex-row items-center gap-6">
-        <img src="./images/co-pilot-logo.jpeg" alt="Microsoft Co-Pilot Logo" class="w-32 h-32 object-contain rounded-lg shadow-md bg-gray-900" />
-        <div>
-          <h3 class="text-xl font-semibold text-green-500 mb-2">Microsoft Co-Pilot</h3>
-          <p class="text-gray-300 mb-3">Microsoft Co-Pilot integrates AI into Microsoft 365 apps to enhance productivity and creativity.</p>
-          <div class="flex flex-wrap gap-2 mb-3">
-            <span class="bg-green-400 text-gray-900 rounded-full px-3 py-1 text-sm font-semibold">Productivity</span>
-            <span class="bg-green-400 text-gray-900 rounded-full px-3 py-1 text-sm font-semibold">AI integration</span>
-            <span class="bg-green-400 text-gray-900 rounded-full px-3 py-1 text-sm font-semibold">Creativity tools</span>
-          </div>
-          <a href="https://www.microsoft.com/en-us/microsoft-365/copilot" target="_blank" class="inline-block bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded shadow">Learn more</a>
-        </div>
-      </article>
-
-      <article class="bg-gray-800 rounded-lg shadow-lg p-6 flex flex-col md:flex-row items-center gap-6">
-        <img src="./images/canva logo.png" alt="Canva Logo" class="w-32 h-32 object-contain rounded-lg shadow-md bg-gray-900" />
-        <div>
-          <h3 class="text-xl font-semibold text-green-500 mb-2">Canva</h3>
-          <p class="text-gray-300 mb-3">Canva uses AI to simplify graphic design and content creation for everyone.</p>
-          <div class="flex flex-wrap gap-2 mb-3">
-            <span class="bg-green-400 text-gray-900 rounded-full px-3 py-1 text-sm font-semibold">Graphic design</span>
-            <span class="bg-green-400 text-gray-900 rounded-full px-3 py-1 text-sm font-semibold">Content creation</span>
-            <span class="bg-green-400 text-gray-900 rounded-full px-3 py-1 text-sm font-semibold">Templates</span>
-          </div>
-          <a href="https://www.canva.com" target="_blank" class="inline-block bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded shadow">Learn more</a>
-        </div>
-      </article>
-
-      <article class="bg-gray-800 rounded-lg shadow-lg p-6 flex flex-col md:flex-row items-center gap-6">
-        <img src="./images/gemini.jpeg" alt="Gemini Logo" class="w-32 h-32 object-contain rounded-lg shadow-md bg-gray-900" />
-        <div>
-          <h3 class="text-xl font-semibold text-green-500 mb-2">Gemini</h3>
-          <p class="text-gray-300 mb-3">Gemini is an AI platform offering advanced machine learning and data analysis tools.</p>
-          <div class="flex flex-wrap gap-2 mb-3">
-            <span class="bg-green-400 text-gray-900 rounded-full px-3 py-1 text-sm font-semibold">Machine learning</span>
-            <span class="bg-green-400 text-gray-900 rounded-full px-3 py-1 text-sm font-semibold">Data analysis</span>
-            <span class="bg-green-400 text-gray-900 rounded-full px-3 py-1 text-sm font-semibold">AI platform</span>
-          </div>
-          <a href="https://www.gemini.com" target="_blank" class="inline-block bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded shadow">Learn more</a>
-        </div>
-      </article>
-
-      <article class="bg-gray-800 rounded-lg shadow-lg p-6 flex flex-col md:flex-row items-center gap-6">
-        <img src="./images/deep motion logo.jpg" alt="Deep Motion AI Logo" class="w-32 h-32 object-contain rounded-lg shadow-md bg-gray-900" />
-        <div>
-          <h3 class="text-xl font-semibold text-green-500 mb-2">Deep Motion AI</h3>
-          <p class="text-gray-300 mb-3">Deep Motion AI specializes in AI-driven motion capture and animation technology, providing real-time body tracking, physics simulation, and interactive character animation solutions for gaming, virtual reality, and film production industries.</p>
-          <div class="flex flex-wrap gap-2 mb-3">
-            <span class="bg-green-400 text-gray-900 rounded-full px-3 py-1 text-sm font-semibold">Motion capture</span>
-            <span class="bg-green-400 text-gray-900 rounded-full px-3 py-1 text-sm font-semibold">Animation</span>
-            <span class="bg-green-400 text-gray-900 rounded-full px-3 py-1 text-sm font-semibold">AI technology</span>
-          </div>
-          <a href="https://www.deepmotion.com" target="_blank" class="inline-block bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded shadow">Learn more</a>
-        </div>
-      </article>
-
-      <article class="bg-gray-800 rounded-lg shadow-lg p-6 flex flex-col md:flex-row items-center gap-6">
-        <img src="./images/blackboxtech.jpg" alt="Black Box AI Logo" class="w-32 h-32 object-contain rounded-lg shadow-md bg-gray-900" />
-        <div>
-          <h3 class="text-xl font-semibold text-green-500 mb-2">Black Box AI</h3>
-          <p class="text-gray-300 mb-3">Black Box AI refers to AI systems whose internal workings are not visible or understandable to users, making their decision-making processes opaque but often powerful.</p>
-          <div class="flex flex-wrap gap-2 mb-3">
-            <span class="bg-green-400 text-gray-900 rounded-full px-3 py-1 text-sm font-semibold">AI Model</span>
-            <span class="bg-green-400 text-gray-900 rounded-full px-3 py-1 text-sm font-semibold">Opaque</span>
-            <span class="bg-green-400 text-gray-900 rounded-full px-3 py-1 text-sm font-semibold">Machine Learning</span>
-          </div>
-          <a href="https://en.wikipedia.org/wiki/Black_box" target="_blank" class="inline-block bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded shadow">Learn More</a>
-        </div>
-      </article>
+    <div class="home">
+        <div id="home">
+        <h6>Hello!!! I'm</h6>
+        <h1>Asar khadgi</h1>
+        <h5>I'm a Website Designer.</h5>
+        <a href="./contact/contact.html"><button type="button" class="btn border-anim">Contact Us <span></span></button></a>
+        <a href="./services/services.html"><button type="button" class="btn border-anim" id="services-btn">Services <span style='font-size:20px;'>&#8594;</span> </button></a>
     </div>
-  </section>
-
-  <section id="services" class="max-w-6xl mx-auto my-12 p-8 bg-gray-800 rounded-lg shadow-lg text-center">
-    <h2 class="text-3xl font-bold mb-6 text-green-400">AI Services</h2>
-    <p class="text-gray-300 max-w-4xl mx-auto text-lg leading-relaxed">
-      AI services offer a wide range of abilities to automate tasks, understand language, and see the world through the eyes of machines. They can talk to you like friends, analyze pictures like detectives, and learn from experience like wise mentors. These powers are transforming industries and revolutionizing them for a better future.
-    </p>
-  </section>
-
-  <section id="contact" class="max-w-6xl mx-auto my-12 p-8 bg-gray-800 rounded-lg shadow-lg">
-    <h2 class="text-3xl font-bold mb-6 text-green-400 text-center">Contact Us</h2>
-    <form action="https://formsubmit.co/khadgiasararyandahal@gmail.com" method="POST" class="max-w-xl mx-auto space-y-6">
-      <input type="text" name="name" placeholder="Full Name" required class="w-full p-3 rounded bg-gray-700 text-gray-200 focus:outline-none focus:ring-2 focus:ring-green-400" />
-      <input type="email" name="email" placeholder="Email" required class="w-full p-3 rounded bg-gray-700 text-gray-200 focus:outline-none focus:ring-2 focus:ring-green-400" />
-      <textarea name="message" rows="5" placeholder="Any message" class="w-full p-3 rounded bg-gray-700 text-gray-200 focus:outline-none focus:ring-2 focus:ring-green-400"></textarea>
-      <button type="submit" class="w-full bg-green-500 hover:bg-green-600 text-white font-bold py-3 rounded shadow">Send</button>
-    </form>
-  </section>
-
-  <footer class="bg-gray-900 text-gray-500 text-center py-6 mt-12">
-    <p>© 2025 AI Website. All rights reserved.</p>
-  </footer>
-
-</body>
+    </div>
+    <script src="script.js"></script>
+  </body>
 </html>
